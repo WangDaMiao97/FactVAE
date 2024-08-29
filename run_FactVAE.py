@@ -103,7 +103,6 @@ def main(args: argparse.Namespace) -> None:
     prior = torch.tensor(gene_to_peak, dtype=torch.float).to(device) # 将prior作为可优化的参数矩阵
 
     seed = 0
-    # 设定随机种子
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
