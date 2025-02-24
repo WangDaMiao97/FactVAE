@@ -7,4 +7,4 @@ FactVAE is a novel factorized variational autoencoder proposed to comprehensivel
 
 ## Usage
 1. Install the dependency packages in requirements.txt.  
-2. Run run_FactVAE.py.FactVAE.png
+2. Run run_FactVAE.py
